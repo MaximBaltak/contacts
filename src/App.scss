@@ -1,0 +1,38 @@
+.wap{
+  display: flex;
+  justify-content: space-between;
+  margin: 70px auto;
+  width: 400px;
+  button{
+    outline: none;
+    border: none;
+    background: none;
+    color: #f56b6b;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all .3s;
+  }
+  button:hover{
+    color: red;
+    transform: scale(1.1);
+  }
+  .blue-button{
+    color: #5daef8;
+  }
+  .blue-button:hover{
+    color: #006cd0;
+  }
+}
+.list{
+  margin: 30px auto;
+  width: 500px;
+  padding: 0;
+  list-style-type: none;
+  li{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    border-bottom: solid 1px black;
+  }
+}

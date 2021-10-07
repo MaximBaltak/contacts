@@ -1,0 +1,50 @@
+.button{
+  position: absolute;
+  outline: none;
+  border: none;
+  background: none;
+  color: #f56b6b;
+  font-size: 14px;
+  font-weight: 400;
+  transition: all .3s;
+  transform: translateX(410px);
+}
+.button:hover{
+  color: red;
+  transform: translateX(410px) scale(1.1);
+}
+.blue{
+  color: #5daef8;
+  transform: translateX(320px)
+}
+.blue:hover{
+  color: #006cd0;
+  transform: translateX(320px) scale(1.1)
+}
+.circle{
+  background: #f56b6b;
+  color: white;
+  font-size: 40px;
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  border-radius: 100%;
+  span{
+    position: absolute;
+    width: 36px;
+    height: 42px;
+    transform: translate(17px, 10px);
+    text-align: center;
+  }
+}
+
+.wap{
+  p{
+    border-bottom: solid 1px #006cd0;
+    width: 270px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 700;
+
+  }
+}
